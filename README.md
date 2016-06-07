@@ -57,7 +57,7 @@ string descriptor using the following format
 > apikeyID:apikeySecret api_key_description_string
 
 The keypair must have full access (read-write), and as always, you will want to
-protect the security
+protect the security of this file.
 
 By default, servers that have been deactivated for more than 7 days and are
 in the specified group will be deleted by the script. To change this, modify
