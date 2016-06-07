@@ -26,9 +26,9 @@ api_keys_path = './api_keys.txt'
 #******************************************************
 
 #******************************************************
-# Specify name of group to move deactivated servers to
+# Specify name of the group to delete deactivated
+# servers from
 # IMPORTANT: Must be exact name match
-# deleteServerGroupName  = 'X-Deactivated Servers'
 deleteServerGroupName  = ''
 #******************************************************
 
@@ -36,8 +36,7 @@ deleteServerGroupName  = ''
 # Specify number of Days a server should be deactivated
 # before server is deleted
 # Default value is 7 days
-# Choose a value of -1 to delete all
-# deactivated servers in specified group regardless of
-# time deactivated
+# Choose a value of -1 to delete all deactivated servers
+# in specified group regardless of time deactivated
 deactivate_num_days = 7
 #******************************************************
